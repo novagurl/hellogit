@@ -1,27 +1,48 @@
 #incude <iostream>
-#include <vector>
-
 using namespace std;
 
-#include "data.h"
+#include <vector>
 
-int main()
+class data
 {
-    vector <data> v;
+private:
+  int x;
+  float;
 
-    v.push-back ({7, 21.01});
+public:
+  data ()
+  {
+    x = 0;
+    y = 0.0;
 
-    data d;
+  }
 
-    v.push-back (d);
-    d.set x (10);
-    d.set y (12.10);
-    v.push-back (d);
+  data (int a, float b)
 
-    for (auto a : v)
+  {
+    x = a;
+    y = b;
 
-    {
-        cout << a.get x() << " ";
-        cout << a.get y() << endl;
-    }
+  }
+  int get x()
+
+  {
+    return x;
+  }
+
+    float get y()
+
+{
+  return y;
+} 
+
+void set x (int a)
+
+{
+  x = a;
 }
+void set y (float a)
+
+{
+  y = a;
+};
