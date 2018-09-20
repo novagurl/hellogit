@@ -1,6 +1,6 @@
 #include "data.h"
 
-data :: data()
+data :: data(int x, float y)
 
 {
     x = 0;
