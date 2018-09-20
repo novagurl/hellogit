@@ -4,6 +4,7 @@ using namespace std;
 
 int main ()
 
+class data
 {
 private: //data members
   int x;
