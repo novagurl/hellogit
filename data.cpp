@@ -4,8 +4,7 @@ using namespace std;
 int main ();
 #include "data.h"
 
-data::data(int x, float y)
-
+data::data()
 {
   x = 0;
   y = 0.0;
