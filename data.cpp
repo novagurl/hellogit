@@ -1,13 +1,13 @@
 #include "data.h"
 
-data::data()
+int::data()
 
 {
     x = 0;
     y = 0.0;
 }
 
-data::data(int a, float b)
+float::data(int a, float b)
 
 {
     x = a;
