@@ -22,7 +22,7 @@ public:
     y = b;
   }
 
-  int get x();
+  int get x()
 
   {
     return x;
@@ -32,7 +32,8 @@ public:
 
 {
   return y;
-}
+};
+
 
 void set x(int a)
 
