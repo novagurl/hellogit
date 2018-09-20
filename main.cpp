@@ -15,7 +15,7 @@ public:
     y = 0.0;
   }
 
-  data (int a, float b);
+  data (int a, float b)
 
   {
     x = a;
@@ -40,10 +40,10 @@ void set x(int a)
 {
   x = a;
 }
-void set y(float a)
+void set y(float b)
 
 {
-  y = a;
+  y = b;
 }
 
 }; //end class
