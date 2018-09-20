@@ -8,7 +8,7 @@ private: //data members
   float y;
 
 public:
-  data()
+  data();
 
   {
     x = 0;
