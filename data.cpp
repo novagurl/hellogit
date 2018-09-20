@@ -11,7 +11,7 @@ data::data(int x, float y)
   y = 0.0;
 }
 
-void::data(int a, float b)
+data::data(int a, float b)
 
 {
     x = a;
