@@ -1,20 +1,14 @@
-#incude <iostream>
-using namespace std;
-
-#include <vector>
-
 class data
 {
 private:
   int x;
-  float;
+  float y;
 
 public:
   data ()
   {
     x = 0;
     y = 0.0;
-
   }
 
   data (int a, float b)
@@ -22,8 +16,8 @@ public:
   {
     x = a;
     y = b;
-
   }
+
   int get x()
 
   {
@@ -34,7 +28,7 @@ public:
 
 {
   return y;
-} 
+}
 
 void set x (int a)
 
@@ -45,4 +39,6 @@ void set y (float a)
 
 {
   y = a;
+}
+
 };
