@@ -22,7 +22,7 @@ public:
     y = b;
   }
 
-  int get x()
+  int get x();
 
   {
     return x;
