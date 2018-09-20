@@ -15,7 +15,7 @@ public:
     y = 0.0;
   }
 
-  data (int a, float b)
+  data (int a, float b);
 
   {
     x = a;
@@ -32,7 +32,7 @@ public:
 
 {
   return y;
-};
+}
 
 
 void set x(int a)
