@@ -1,8 +1,6 @@
 #include<iostream>
 using namespace std;
 
-int main()
-
 class data
 {
 private: //data members
