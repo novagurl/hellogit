@@ -1,7 +1,9 @@
 #include<iostream>
 using namespace std;
+#include "data.h"
 
-class data
+int main ()
+
 {
 private: //data members
   int x;
