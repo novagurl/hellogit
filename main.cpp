@@ -2,7 +2,7 @@
 using namespace std;
 #include "data.h"
 
-int main ()
+int main ();
 
 class data
 {
