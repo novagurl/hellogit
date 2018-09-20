@@ -1,11 +1,18 @@
+#include<iostream>
+using namespace std;
+
+#include <vector>
+#include "data.h"
+
 class data
 {
-private:
+private: //data members
   int x;
   float y;
 
 public:
-  data ()
+  data()
+
   {
     x = 0;
     y = 0.0;
@@ -30,15 +37,15 @@ public:
   return y;
 }
 
-void set x (int a)
+void set x(int a)
 
 {
   x = a;
 }
-void set y (float a)
+void set y(float a)
 
 {
   y = a;
 }
 
-};
+}; //end class
