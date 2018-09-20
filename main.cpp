@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
 
-#include <vector>
 #include "data.h"
 
 class data
