@@ -8,7 +8,7 @@ private: //data members
   float y;
 
 public:
-  data();
+  data()
 
   {
     x = 0;
@@ -22,25 +22,25 @@ public:
     y = b;
   }
 
-  int get x()
+  int getx()
 
   {
     return x;
   }
 
-    float get y()
+    float gety()
 
 {
   return y;
 }
 
 
-void set x(int a)
+void setx(int a)
 
 {
   x = a;
 }
-void set y(float b)
+void sety(float b)
 
 {
   y = b;
